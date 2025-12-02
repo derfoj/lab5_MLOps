@@ -25,6 +25,5 @@ jobs:
         with:
           context: .
           push: true
-          # Remplacez ci-dessous 'votre-pseudo' par votre vrai nom d'utilisateur Docker Hub
-          # Exemple : jean/lab5-cicd:latest
+    
           tags: ${{ secrets.DOCKER_LOGIN }}/lab5-cicd:latest
